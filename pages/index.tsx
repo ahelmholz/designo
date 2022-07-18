@@ -1,12 +1,9 @@
 import type { NextPage } from "next";
-import { Text } from "@chakra-ui/react";
+
+import Hero from "../components/Hero";
 
 const Home: NextPage = () => {
-  return (
-    <div>
-      <Text> Hello world</Text>
-    </div>
-  );
+  return <Hero />;
 };
 
 export default Home;
