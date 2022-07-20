@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 
 import Hero from "../../components/Hero";
+import ProjectCTA from "../../components/ProjectCTA";
 import Pillars from "./components/Pillars";
 import ProjectBoxGroup from "./components/ProjectBoxGroup/ProjectBoxGroup";
 
@@ -10,6 +11,7 @@ const Home: NextPage = () => {
       <Hero />
       <ProjectBoxGroup />
       <Pillars />
+      <ProjectCTA />
     </>
   );
 };
