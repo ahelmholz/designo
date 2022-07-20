@@ -19,7 +19,7 @@ const ProjectBoxGroup = (props: Props) => {
       >
         <Box w="50%" display={{ base: "none", lg: "initial" }}>
           <LargeProjectBox
-            href="/projects/webdesign"
+            href="/projects/web-design"
             header="Web Design"
             backgroundImageUrl="/webdesign.png"
           />
@@ -28,7 +28,7 @@ const ProjectBoxGroup = (props: Props) => {
         <Flex flexDir="column" w={{ base: "100%", lg: "50%" }}>
           <Box display={{ base: "initial", lg: "none" }}>
             <SmallProjectBox
-              href="/projects/webdesign"
+              href="/projects/web-design"
               header="Web Design"
               backgroundImageUrl="/webdesign.png"
             />
@@ -36,13 +36,13 @@ const ProjectBoxGroup = (props: Props) => {
           </Box>
           <SmallProjectBox
             header="App Design"
-            href="/projects/app_design"
+            href="/projects/app-design"
             backgroundImageUrl="/appdesign.png"
           />
           <Box h="24px">&nbsp;</Box>
           <SmallProjectBox
             header="Graphic Design"
-            href="/projects/graphic_design"
+            href="/projects/graphic-design"
             backgroundImageUrl="/graphicdesign.png"
           />
         </Flex>

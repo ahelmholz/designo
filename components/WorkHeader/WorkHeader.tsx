@@ -20,6 +20,7 @@ const WorkHeader = (props: Props) => {
         justifyContent="center"
         alignItems="center"
         color="white"
+        mt={{ md: "64px" }}
       >
         <Text variant="h1">{props.title}</Text>
         <Text

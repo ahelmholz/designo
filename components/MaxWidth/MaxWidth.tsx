@@ -1,15 +1,13 @@
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Flex, FlexProps } from "@chakra-ui/react";
 import React, { ReactNode } from "react";
 
-type Props = {
-  children: ReactNode;
-};
+interface Props extends FlexProps {}
 
-const MaxWidth: React.FC<Props> = (props) => {
+const MaxWidth: React.FC<Props> = ({ children, ...rest }) => {
   return (
-    <Flex w="100%" justifyContent="center">
+    <Flex w="100%" justifyContent="center" {...rest}>
       <Box maxW={{ base: "100%", md: "690px", lg: "1200px" }} w="100%">
-        {props.children}
+        {children}
       </Box>
     </Flex>
   );
