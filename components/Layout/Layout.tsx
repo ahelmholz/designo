@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
 
 import Header from "./Header";
+import Footer from "./Footer";
 
 interface Props {}
 
@@ -16,7 +17,8 @@ const Layout: React.FC<Props> = ({ children }) => {
         w="100%"
       >
         <Header />
-        {children}
+        <main>{children}</main>
+        <Footer />
       </Box>
     </Flex>
   );

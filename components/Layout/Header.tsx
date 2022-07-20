@@ -7,7 +7,6 @@ import { useRouter } from "next/router";
 
 const Header = () => {
   const router = useRouter();
-  console.log({ pathname: router.pathname });
   return (
     <Flex
       as="header"
