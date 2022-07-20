@@ -36,6 +36,7 @@ const SmallProjectBox = (props: Props) => {
           variant="h2"
           textTransform="uppercase"
           zIndex="1"
+          textAlign="center"
           onMouseOver={() => setHover(true)}
           onMouseLeave={() => setHover(false)}
         >
