@@ -38,7 +38,7 @@ const Header = () => {
             _hover={{ textDecoration: "underline" }}
             opacity={router.pathname === "/company" ? "0.4" : undefined}
           >
-            <Link href="">Our Company</Link>
+            <Link href="/company">Our Company</Link>
           </Box>
           <Box
             as="span"
@@ -46,14 +46,14 @@ const Header = () => {
             _hover={{ textDecoration: "underline" }}
             opacity={router.pathname === "/locations" ? "0.4" : undefined}
           >
-            <Link href="">Locations</Link>
+            <Link href="/locations">Locations</Link>
           </Box>
           <Box
             as="span"
             _hover={{ textDecoration: "underline" }}
             opacity={router.pathname === "/contact" ? "0.4" : undefined}
           >
-            <Link href="">Contact</Link>
+            <Link href="/contact-us">Contact</Link>
           </Box>
         </Flex>
       </Flex>
