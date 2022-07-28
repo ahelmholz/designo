@@ -24,6 +24,7 @@ const LocationsView = () => {
           }}
           columnGap={{ lg: "30px" }}
           rowGap={{ md: "32px" }}
+          id="canada"
         >
           <GridItem area="info">
             <LocationDetails
@@ -57,6 +58,7 @@ const LocationsView = () => {
           }}
           columnGap={{ lg: "30px" }}
           rowGap={{ md: "32px" }}
+          id="australia"
         >
           <GridItem area="info">
             <LocationDetails
@@ -90,6 +92,7 @@ const LocationsView = () => {
           }}
           columnGap={{ lg: "30px" }}
           rowGap={{ md: "32px" }}
+          id="uk"
         >
           <GridItem area="info">
             <LocationDetails
