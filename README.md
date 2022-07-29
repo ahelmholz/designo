@@ -1,4 +1,4 @@
-### Designo Portfolio
+# Designo Portfolio
 
 ## Getting Started
 
